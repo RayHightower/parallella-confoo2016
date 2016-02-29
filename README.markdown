@@ -1,7 +1,7 @@
 Parallella Presentation at ConFoo 2016
 ===
 
-This repository contains materials used during Ray Hightower's Parallella presentation at [ConFoo 2016](http://confoo.ca) in Montreal, Quebec, Canada.
+This repository contains materials used during Ray Hightower's [Parallella](http://rayhightower.com/blog/2014/07/07/parallella-quick-start-guide-with-gotchas/) presentation at [ConFoo 2016](http://confoo.ca) in Montreal, Quebec, Canada.
 
 ### Contents
 
