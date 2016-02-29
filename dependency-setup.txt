@@ -1,0 +1,15 @@
+How to set up dependencies on a clean headless linaro for Parallella:
+
+
+Run "parallella-setup.sh"
+
+OR
+
+Step 1: Go to para-para example, in parallella examples
+  Why? It has all the basic dependencies for the examples
+Step 2: Copy all the commands from the readme into a shell script
+  Why? I'd mistype something tbh if I copied it myself
+Step 3: Run 'sudo ln /opt/openmpi/bin/* /usr/local/bin'
+  Why? It's installed somewhere other than where the build scripts expect it
+Step 4: Edit /etc/ld.so.conf and add '/usr/local/browndeer/lib'
+  Why? The linker doesn't know about the location by default and the install process doesn't add it.

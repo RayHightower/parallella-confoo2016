@@ -1,0 +1,7 @@
+The purpose of this project is to show the advantages of parallel vs serial programming in a very simple, computationally intensive task: finding prime numbers. Both the serial and parallel versions use the same algorithm, so the only difference is the environment.
+
+To compile:
+	`make serial`
+
+To run:
+	`./primes`
