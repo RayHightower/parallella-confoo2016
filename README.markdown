@@ -7,9 +7,9 @@ This repository contains materials used during Ray Hightower's [Parallella](http
 
 * Slides from the ConFoo presentation (PDF) + [SpeakerDeck.com/RayHightower](https://speakerdeck.com/rayhightower/confoo-2016-parallella-supercomputing-and-ruby).
 
-* `primeserial/` - Prime number example in serial.
+* `primeserial/` - Prime number example in serial. Runs on the 2-core ARM chip on the Parallella. Can be compiled to run on Mac OS X.
 
-* `eprime/` - Prime number example in parallell on the Parallella.
+* `eprime/` - Prime number example in parallel, running on the 16-core Epiphany chip on the Parallella.
 
 * `mandelbrot/` - Mandelbrot plot example.
 
